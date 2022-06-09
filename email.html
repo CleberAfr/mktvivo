@@ -40,7 +40,7 @@
             align-items: center;
             width: 952px;
             height: 400px;
-            background: url("https://raw.githubusercontent.com/CleberAfr/mktvivo/master/2019-08-dd-vendas-por-telemarketing.jpg");
+            background: url("/assets/2019-08-dd-vendas-por-telemarketing.jpg");
         }
 
         /* Cuidando da sua carreira */
@@ -99,8 +99,12 @@
             align-items: center;
         }
         a{
-            padding: 5px;
+            
             text-decoration: none;
+        }
+        li{
+            padding: 5px;
+            width: 25px;
         }
         ul{
             display: flex;
@@ -109,22 +113,21 @@
         }
 
         .uil{
-            font-size: 30px;
+            font-size: 100px;
             color: black;
             background-color: #f6e3ff;
-            
         }
     </style>
 </head>
 <body>
     <header>
-            <img class="logo_header" src="https://raw.githubusercontent.com/CleberAfr/mktvivo/master/vivo-logo-825312px.png"  alt="vivo">
+            <img class="logo_header" src="/assets/vivo-logo-825312px.png"  alt="vivo">
     </header>
 
     <main class="container">
         <div class="figure_container">
             <h2 class="text_figure">Cuidando da sua carreira</h2>
-            <img class="figure_vivo" src="https://raw.githubusercontent.com/CleberAfr/mktvivo/599b75f3bdc03ed040c38c70de2d4a32e03a1bb3/meu-vivo-quick-links-320x320.svg" alt="">
+            <img class="figure_vivo" src="/assets/meu-vivo-quick-links-320x320.svg" alt="">
         </div>
         
 
@@ -150,11 +153,40 @@
     </main>  
     <footer>
         <ul>
-            <li><a href="https://www.instagram.com/vivo/"><i class="uil uil-instagram"></i></a></li>
-            <li><a href="https://www.facebook.com/vivo/"><i class="uil uil-facebook"></i></a></li>
-            <li><a href="https://www.youtube.com/user/Vivo"><i class="uil uil-youtube"></i></a></li>
-            <li><a href="https://twitter.com/vivobr/"><i class="uil uil-twitter"></i></a></li>
-            <li><a href="https://www.linkedin.com/company/vivo-telefonicabr/"><i class="uil uil-linkedin"></i></a></li>
+            <li>
+                <a href="https://www.instagram.com/vivo/">
+                    <img class="uil" src="/assets/instagram.svg" 
+                   alt="Instagran">
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.facebook.com/vivo/">
+                    <img class="uil" src="/assets/facebook.svg" 
+                         alt="Facebook">
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.youtube.com/user/Vivo">
+                    <img class="uil" src="/assets/youtube.svg" 
+                         alt="YouTube">
+                </a>
+            </li>
+
+            <li>
+                <a href="https://twitter.com/vivobr/">
+                    <img class="uil" src="/assets/twitter.svg" 
+                   alt="Twitter">
+                </a>
+            </li>
+            
+            <li>
+                <a href="https://www.linkedin.com/company/vivo-telefonicabr/">
+                    <img class="uil" src="assets/linkedin.svg" 
+                         alt="Linkedin">
+                        </a>
+            </li>
         </ul>
     </footer>
 </body>
