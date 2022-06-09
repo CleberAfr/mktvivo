@@ -1,15 +1,20 @@
-
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;600;700&display=swap');
-          
-        body{
+        * {
             margin: 0;
             text-rendering: optimizeLegibility;
             font-family: 'Roboto Slab', serif;
+        }   
+        body{
             display: flex;
             flex-direction: column;
         }
-        .header_container{
+        header{
             display: flex;
             justify-content: center;
             width: 100%;
@@ -23,17 +28,6 @@
             width: 350px;
         }
 
-        @media screen and (max-width: 1201px) {
-        .figure_container{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            width: 952px;
-            height: 400px;
-            background: url("https://github.com/CleberAfr/mktvivo/blob/master/assets/2019-08-dd-vendas-por-telemarketing.jpg?raw=true");
-        }
-        }
-
         .container{
             display: flex;
             align-items: center;
@@ -45,9 +39,9 @@
             display: flex;
             flex-direction: row;
             align-items: center;
-            width: 964px;
+            width: 952px;
             height: 400px;
-            background: url("https://github.com/CleberAfr/mktvivo/blob/master/assets/2019-08-dd-vendas-por-telemarketing.jpg?raw=true");
+            background: url("/assets/2019-08-dd-vendas-por-telemarketing.jpg");
         }
 
         /* Cuidando da sua carreira */
@@ -125,16 +119,16 @@
             background-color: #f6e3ff;
         }
     </style>
-
-
-    <header class="header_container">
-            <img class="logo_header" src="https://github.com/CleberAfr/mktvivo/blob/master/assets/vivo-logo-825312px.png?raw=true"  alt="vivo">
+</head>
+<body>
+    <header>
+            <img class="logo_header" src="/assets/vivo-logo-825312px.png"  alt="vivo">
     </header>
 
     <main class="container">
         <div class="figure_container">
             <h2 class="text_figure">Cuidando da sua carreira</h2>
-            <img class="figure_vivo" src="https://raw.githubusercontent.com/CleberAfr/mktvivo/7c0bdae95c6884f4eda4c155fd596fdb041e0c71/assets/meu-vivo-quick-links-320x320.svg" alt="">
+            <img class="figure_vivo" src="/assets/meu-vivo-quick-links-320x320.svg" alt="">
         </div>
         
 
@@ -158,41 +152,44 @@
             </p>
         </div>
     </main>  
-    <footer class="footer">
+    <footer>
         <ul>
-            <li class="icon">
+            <li>
                 <a href="https://www.instagram.com/vivo/">
-                    <img class="uil" src="https://raw.githubusercontent.com/CleberAfr/mktvivo/7c0bdae95c6884f4eda4c155fd596fdb041e0c71/assets/instagram.svg" 
+                    <img class="uil" src="/assets/instagram.svg" 
                    alt="Instagran">
                 </a>
             </li>
 
-            <li class="icon">
+            <li>
                 <a href="https://www.facebook.com/vivo/">
-                    <img class="uil" src="https://raw.githubusercontent.com/CleberAfr/mktvivo/7c0bdae95c6884f4eda4c155fd596fdb041e0c71/assets/facebook.svg" 
+                    <img class="uil" src="/assets/facebook.svg" 
                          alt="Facebook">
                 </a>
             </li>
 
-            <li class="icon">
+            <li>
                 <a href="https://www.youtube.com/user/Vivo">
-                    <img class="uil" src="https://raw.githubusercontent.com/CleberAfr/mktvivo/7c0bdae95c6884f4eda4c155fd596fdb041e0c71/assets/youtube.svg" 
+                    <img class="uil" src="/assets/youtube.svg" 
                          alt="YouTube">
                 </a>
             </li>
 
-            <li class="icon">
+            <li>
                 <a href="https://twitter.com/vivobr/">
-                    <img class="uil" src="https://raw.githubusercontent.com/CleberAfr/mktvivo/7c0bdae95c6884f4eda4c155fd596fdb041e0c71/assets/twitter.svg" 
+                    <img class="uil" src="/assets/twitter.svg" 
                    alt="Twitter">
                 </a>
             </li>
             
-            <li class="icon">
-                <a class="link" href="https://www.linkedin.com/company/vivo-telefonicabr/">
-                    <img class="uil" src="https://raw.githubusercontent.com/CleberAfr/mktvivo/7c0bdae95c6884f4eda4c155fd596fdb041e0c71/assets/linkedin.svg" 
+            <li>
+                <a href="https://www.linkedin.com/company/vivo-telefonicabr/">
+                    <img class="uil" src="assets/linkedin.svg" 
                          alt="Linkedin">
                         </a>
             </li>
         </ul>
     </footer>
+</body>
+</html>
+-->
