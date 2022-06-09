@@ -27,9 +27,9 @@ header{
 .figure_container{
     flex-direction: row;
     align-items: center;
-    width: 964px;
-    height: 505px;
-    background: url(2019-08-dd-vendas-por-telemarketing.jpg);
+    width: 952px;
+    height: 400px;
+    background: url(/assets/2019-08-dd-vendas-por-telemarketing.jpg);
 }
 
 /* Cuidando da sua carreira */
@@ -64,14 +64,39 @@ header{
     text-align: justify;
     background-color: #f6e3ff;
     padding: 1rem;
+    padding-bottom: 50px;
 }
 
 .title_paragraphy{
+    margin-top: 50px;
     width: 400px;
-    margin-bottom: 20px;
     text-align: left;
+}
+
+.subtitle_paragraphy{
+    margin-bottom: 20px;
 }
 
 p{
     margin-bottom: 10px;
+}
+
+footer{
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.uil{
+    font-size: 30px;
+    color: black;
+    background-color: #f6e3ff;
+    width: 50px;
 }
